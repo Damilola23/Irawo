@@ -1,9 +1,8 @@
 .cover-image{
-    height: 93vh;
     width: 100%;
 }
 .register{
-    color: aquamarine;
+    color: blue;
     background-color: ghostwhite;
     padding-top: 10%;
     padding-bottom: 5%;
@@ -26,6 +25,16 @@ div.hero-text-register{
     padding-bottom: 10px;
 }
 .btn{
-    background-color: aquamarine;
+    background-color: blue;
     width:100%
+}
+
+@media (max-width: 768px) {
+    .about-sec {
+       flex-direction: column;
+    }
+
+    .information {
+        width: 80%
+    }
 }
